@@ -279,7 +279,7 @@ MIT — 随便用，随便改，随便蒸馏。
 | 𝕏 Twitter | [@AlchainHust](https://x.com/AlchainHust) |
 | 📺 B站 | [花叔](https://space.bilibili.com/14097567) |
 | ▶️ YouTube | [@Alchain](https://www.youtube.com/@Alchain) |
-| 📕 小红书 | [花生](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
+| 📕 小红书 | [花叔](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
 | 💬 公众号 | 微信搜「花叔」或扫码关注 ↓ |
 
 <img src="wechat-qrcode.jpg" alt="公众号二维码" width="360">
