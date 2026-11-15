@@ -16,6 +16,10 @@
 
 <br>
 
+<sub>非官方项目，未获本人授权或背书；以下示例均为 AI 生成。<br>Unofficial project, not authorized or endorsed by the person it is based on. All examples below are AI-generated.</sub>
+
+<br>
+
 基于《穷查理宝典》、伯克希尔/Daily Journal 股东会、USC/哈佛演讲、<br>
 访谈记录、外部批评等 50+ 来源深度调研，<br>
 提炼 8 个招式、6 个心智模型、17 张案例卡和 6 条常见误读。
@@ -28,7 +32,7 @@
 
 ## 效果示例
 
-### 问：现在AI创业很火，我想辞职做一个AI产品，你怎么看？
+### AI生成示例｜问：现在AI创业很火，我想辞职做一个AI产品，你怎么看？
 
 ```
 芒格      ❯ 让我用逆向思考回答你。不问「该不该做AI创业」，
@@ -50,7 +54,7 @@
             坐在屁股上不动，是你目前能做的最聪明的事。
 ```
 
-### 问：团队里技术最强的人经常打压同事、抢功劳，怎么处理？
+### AI生成示例｜问：团队里技术最强的人经常打压同事、抢功劳，怎么处理？
 
 ```
 芒格      ❯ 葡萄干拌屎还是屎。
@@ -74,7 +78,7 @@
             没有第三个选项。
 ```
 
-### 问：所有人都在写DeepSeek，我要不要跟？
+### AI生成示例｜问：所有人都在写DeepSeek，我要不要跟？
 
 ```
 芒格      ❯ 先做一个Lollapalooza检测。
@@ -99,7 +103,7 @@
             但持续生产噪音会杀死你的品牌。
 ```
 
-### 问：读什么书能提升认知水平？
+### AI生成示例｜问：读什么书能提升认知水平？
 
 ```
 芒格      ❯ 你问错了问题。不是读什么书，是怎么读。
@@ -124,7 +128,7 @@
             但读的方式错了，读一百本跟不读没有区别。
 ```
 
-> 完整的4轮实战对话记录在 [`examples/`](examples/) 目录。
+> 完整的4轮AI生成示例对话在 [`examples/`](examples/) 目录。
 
 这不是ChatGPT套了个芒格面具。上面是 v1 时期的对话。每段回应都在运用芒格的具体心智模型——逆向思考、Lollapalooza效应、激励机制诊断、能力圈检验、三筐分类法。它不复读语录，它用芒格的认知框架分析你的问题。
 
@@ -149,11 +153,13 @@ npx skills add alchaincyf/munger-skill
 
 | Runtime | 安装路径 |
 |---|---|
-| Claude Code | `~/.claude/skills/munger-skill/` |
-| Codex CLI | `~/.codex/skills/munger-skill/` |
-| Cursor | `~/.cursor/skills/munger-skill/` |
-| OpenClaw | `~/.openclaw/workspace/skills/munger-skill/` |
+| Claude Code | `~/.claude/skills/munger-perspective/` |
+| Codex CLI | `~/.codex/skills/munger-perspective/` |
+| Cursor | `~/.cursor/skills/munger-perspective/` |
+| OpenClaw | `~/.openclaw/workspace/skills/munger-perspective/` |
 | Hermes Agent | 跑该 runtime 的 install 脚本或 clone 到其 skills 目录 |
+
+手动安装时，目录名必须与 `SKILL.md` frontmatter 的 `name` 一致：`munger-perspective`。仓库地址仍是 `alchaincyf/munger-skill`。
 
 ```bash
 git clone https://github.com/alchaincyf/munger-skill <对应路径>
@@ -264,7 +270,7 @@ munger-skill/
 │   ├── 25-biases.md            # 25 种人类误判心理学
 │   └── research/               # 调研底稿、封存件、验证答卷
 └── examples/
-    └── demo-conversation.md    # 实战对话记录（v1 时期）
+    └── demo-conversation.md    # AI生成示例对话（v1 时期）
 ```
 
 ---
